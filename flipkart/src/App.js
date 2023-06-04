@@ -15,16 +15,16 @@ function App() {
             placeholder="Search For products, brands, and more"
           />
         </div>
-        <div className="item top-bar-img-button">
+        <div className="item top-bar-button">
           <button className="button-top-bar">Login</button>
         </div>
-        <div className="item top-bar-img-seller">
+        <div className="item top-bar-seller">
           <span>Become a Seller</span>
         </div>
-        <div className="item top-bar-img-more">
+        <div className="item top-bar-more">
           <span>More</span>
         </div>
-        <div className="item top-bar-img-cart">
+        <div className="item top-bar-cart">
           <span>Cart</span>
         </div>
         <div className="item top-bar-end"></div>

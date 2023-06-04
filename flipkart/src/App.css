@@ -15,31 +15,29 @@
 }
 .top-bar-img {
   display: flex;
-  height: 25px;
-  flex-basis: 9%;
+  height: 20px;
+  flex-basis: 7%;
 }
 .top-bar-input {
   display: flex;
   flex-basis: 38%;
 }
-.top-bar-img-button{
+.top-bar-button{
+  display: flex;
+  flex-basis: 12%;
+  align-items: center;
+}
+.top-bar-seller {
   display: flex;
   flex-basis: 12%;
 }
-.top-bar-img-seller {
+.top-bar-more {
   display: flex;
-  flex-basis: 12%;
-
-
+  flex-basis: 7%;
 }
-.top-bar-img-more {
+.top-bar-cart {
   display: flex;
-  flex-basis: 10%;
-
-}
-.top-bar-img-cart {
-  display: flex;
-  flex-basis: 10%;
+  flex-basis: 13%;
 
 }
 .top-bar-end {
