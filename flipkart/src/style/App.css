@@ -14,9 +14,23 @@
   flex-basis: 14%;
 }
 .top-bar-img {
+  display: block;
+  flex-basis: 8%;
+}
+.flipkart-explore{
   display: flex;
-  height: 20px;
-  flex-basis: 7%;
+  color: white;
+  text-decoration: none;
+  font-size: 12px;
+}
+.flipkart-explore-span{
+  color: #ffe500;
+  margin-left: 2px;
+}
+.flipkart-plus-img{
+  display: flex;
+  height: 12px;
+  width: 13px;
 }
 .top-bar-input {
   display: flex;
@@ -46,6 +60,8 @@
 
 }
 .img-top-bar {
+  height: 20px;
+  display: block;
 }
 .input-top-bar {
   height: 2rem;
@@ -64,7 +80,7 @@
   border-color: white;
   align-items: center;
 }
-span {
+.span-header {
   color: white;
   font-weight: bold;
   padding: 10px;

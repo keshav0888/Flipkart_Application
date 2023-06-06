@@ -1,0 +1,18 @@
+.menu{
+    display: flex;
+    flex-grow: 1;
+    margin-left: 90
+}
+.menuItem{
+    flex-basis: 130px;
+
+}
+.menu-img{
+  height: 64px;
+  width: 64px;
+}
+.menu-name{
+    display: block;
+    font-weight: 500;
+    font-size: 14px;
+}
