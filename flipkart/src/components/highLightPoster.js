@@ -11,15 +11,15 @@ export const HighlightPoster = () => {
     setCurrentImage((prev) => (prev === images.length - 1 ? 0 : prev + 1));
   };
 
-  // useEffect(() => {
-  //   const interval = setInterval(() => {
-  //     nextImage();
-  //   }, 30000);
+  useEffect(() => {
+    const interval = setInterval(() => {
+      nextImage();
+    }, 1000);
 
-  //   return () => {
-  //     clearInterval(interval);
-  //   };
-  // }, [currentImage]);
+    return () => {
+      clearInterval(interval);
+    };
+  }, [currentImage]);
 
   return (
     <div className="poster">
