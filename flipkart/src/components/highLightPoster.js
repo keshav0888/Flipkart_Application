@@ -14,7 +14,7 @@ export const HighlightPoster = () => {
   useEffect(() => {
     const interval = setInterval(() => {
       nextImage();
-    }, 1000);
+    }, 2000);
 
     return () => {
       clearInterval(interval);
