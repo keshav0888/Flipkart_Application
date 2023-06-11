@@ -85,3 +85,17 @@
   font-weight: bold;
   padding: 10px;
 }
+.promotion{
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 10px;
+}
+.promotionImg{
+  height: 230px;
+  width: 420px;
+  flex-basis: 30%;
+
+}
+.promotionImg-div{
+  margin: 10px;
+}
